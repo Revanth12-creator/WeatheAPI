@@ -1,0 +1,49 @@
+body{
+    background: url(../images/weather3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.weatherInput {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 100px;  
+}
+#input{
+    padding: 17px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 19px;
+    border: none;
+    border-radius: 34px;
+    margin: 5px;
+    width: 350px;
+    background-color: white;
+}
+
+button{
+    width: 80px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    font-size: 20px;
+}
+h1{
+    color: darkblue;
+    font-size:35px;
+    margin-right: 700px;
+}
+.icon img {
+    width: 60px;
+}
+.icon ,p,.temp{
+    font-size: 35px;
+    color: floralwhite;
+}
+.icon{
+    margin-bottom: -20px;
+}
+.icon p{
+    color: chartreuse;
+}
